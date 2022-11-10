@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>CSS Bootcamp</title>
+</head>
+<body>
+    <section class="main-sec">
+		<div><h1 style="font-size: 30px;">CSS Bootcamp</h1></div>
+
+		<br><hr><br>
+
+		<div>
+			<h2>Colors</h2>
+			<br>
+				<p style="text-indent: 30px;">In CSS, Colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values.</p>
+				<br>
+				<h4>RGB</h4>
+				<div class="para-rgb para-pad">
+				<p>In CSS, a color can be specified as an RGB value, using this formula: rgb(red, green, blue)</p><br>
+				<p>Each parameter (red, green, and blue) defines the intensity of the color between 0 and 255.</p>
+				</div>
+				<br>
+				<h4>RGBA</h4>
+				<div class="para-rgba para-pad">
+				<p>RGBA color values are an extension of RGB color values with an alpha channel - which specifies the opacity for a color.</p><br>
+				<p>An RGBA color value is specified with: rgba(red, green, blue, alpha)</p><br>
+				<p>The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all):</p>
+				</div>
+				<br>
+				<h4>HEX</h4>
+				<div class="para-hex para-pad">
+				<p>A HEX color is specified with: #RRGGBB, where the RR (red), GG (green) and BB (blue) hexadecimal integers specify the components of the color. </p>
+				</div>
+				<br>
+				<h4>3-Digit HEX</h4>
+				<div class="para-3hex para-pad">
+				<p>The 3-digit hex code is a shorthand for some 6-digit hex codes.</p><br>
+				<p>The 3-digit hex code can only be used when both the values (RR, GG, and BB) are the same for each component. So, if we have #ff00cc, it can be written like this: #f0c.</p>
+				</div>
+				<br>
+				<h4>HSL</h4>
+				<div class="para-hsl para-pad">
+				<p>In CSS, a color can be specified using hue, saturation, and lightness (HSL) in the form: hsl(hue, saturation, lightness)</p><br>
+				<p>Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.</p>
+				</div>
+				<br>
+				<h4>HSLA</h4>
+				<div class="para-hsla para-pad">
+				<p>HSLA color values are an extension of HSL color values with an alpha channel - which specifies the opacity for a color.</p><br>
+				<p>An HSLA color value is specified with: hsla(hue, saturation, lightness, alpha)</p><br>
+				<p>The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all)</p>
+				</div>
+		</div>
+
+
+
+
+
+
+
+        <br><hr><br>
+
+        <div>
+            <h1>Text Alignment & Text Direction</h1>
+						<ul>
+						<li><b>text-align</b></li>
+						<li><b>text-align-last</b></li>
+						<li><b>direction</b></li>
+						<li><b>unicode-bidi</b></li>
+						<li><b>vertical-align</b></li>
+						</ul>
+        </div>
+				<br><hr><br>
+				<div>
+				<h2>Text Alignment</h2>
+				<br>
+				<p>The text-align property is used to set the horizontal alignment of a text. A text can be left or right aligned, centered, or justified.</p>
+				<br>
+				<h4>text-align : center;</h4><br>
+				<p class="center-text">Mahendra Singh Dhoni is an Indian former international cricketer who was captain of the Indian national cricket team in limited-overs formats from 2007 to 2017 and in Test cricket from 2008 to 2014. He led India to three ICC trophies, the most for any Indian captain.</p>
+				<br>
+				<h4>text-align : left;</h4><br>
+				<p class="left-text">Mahendra Singh Dhoni is an Indian former international cricketer who was captain of the Indian national cricket team in limited-overs formats from 2007 to 2017 and in Test cricket from 2008 to 2014. He led India to three ICC trophies, the most for any Indian captain.</p>
+				<br>
+				<h4>text-align : right;</h4><br>
+				<p class="right-text">Mahendra Singh Dhoni is an Indian former international cricketer who was captain of the Indian national cricket team in limited-overs formats from 2007 to 2017 and in Test cricket from 2008 to 2014. He led India to three ICC trophies, the most for any Indian captain.</p>
+				<br>
+				<h4>text-align : justify;</h4><br>
+				<p class="justify-text">Mahendra Singh Dhoni is an Indian former international cricketer who was captain of the Indian national cricket team in limited-overs formats from 2007 to 2017 and in Test cricket from 2008 to 2014. He led India to three ICC trophies, the most for any Indian captain.</p>
+				</div>
+
+				<br><hr><br>
+
+				<div>
+				<h2>Text Align Last</h2><br>
+				<p>The text-align-last property specifies how to align the last line of a text.</p>
+				<br>
+				<h4>text-align-last : center;</h4><br>
+				<p class="last-center">Mahendra Singh Dhoni is an Indian former international cricketer who was captain of the Indian national cricket team in limited-overs formats from 2007 to 2017 and in Test cricket from 2008 to 2014. He led India to three ICC trophies, the most for any Indian captain.</p>
+				<br>
+				<h4>text-align-last : left;</h4><br>
+				<p class="last-left">Mahendra Singh Dhoni is an Indian former international cricketer who was captain of the Indian national cricket team in limited-overs formats from 2007 to 2017 and in Test cricket from 2008 to 2014. He led India to three ICC trophies, the most for any Indian captain.</p>
+				<br>
+				<h4>text-align-last : right;</h4><br>
+				<p class="last-right">Mahendra Singh Dhoni is an Indian former international cricketer who was captain of the Indian national cricket team in limited-overs formats from 2007 to 2017 and in Test cricket from 2008 to 2014. He led India to three ICC trophies, the most for any Indian captain.</p>
+				<br>
+				<h4>text-align-last : justify;</h4><br>
+				<p class="last-justify">Mahendra Singh Dhoni is an Indian former international cricketer who was captain of the Indian national cricket team in limited-overs formats from 2007 to 2017 and in Test cricket from 2008 to 2014. He led India to three ICC trophies, the most for any Indian captain.</p>
+				<br>
+				</div>
+
+				<br><hr><br>
+
+				<div>
+				<h2>Text Direction</h2><br>
+				<p>The direction and unicode-bidi properties can be used to change the text direction of an element:</p>
+				<br>
+				<h4>Left to Right</h4>
+				<p class="dir-lr">Intelligence is the ability to adapt to change.</p>
+				<br>
+				<h4>Right to Left</h4>
+				<p class="dir-rl">Intelligence is the ability to adapt to change.</p>
+				</div>
+				
+				<br><hr><br>
+				
+				<div>
+				<h2>Vertical Alignment</h2>
+				<p>The vertical-align property sets the vertical alignment of an element.</p>
+				<br>
+				<h4>Baseline</h4>
+				<br>
+				<p class="va">Intelli<span class="ver-bl">gence</span></p>
+				<br>
+				<h4>Text-Top</h4>
+				<br>
+				<p class="va">Intelli<span class="ver-tt">gence</span></p>
+				<br>
+				<h4>Text-Bottom</h4>
+				<br>
+				<p class="va">Intelli<span class="ver-tb">gence</span></p>
+				<br>
+				<h4>Sub</h4>
+				<br>
+				<p class="va">Intelli<span class="ver-sub">gence</span></p>
+				<br>
+				<h4>Super</h4>
+				<br>
+				<p class="va">Intelli<span class="ver-sup">gence</span></p>
+				</div>
+				
+				<br><hr><br>
+				
+				<div>
+                <h1>Text Decoration & Text Transformation</h1>
+						<ul>
+						<li><b>text-decoration-line</b></li>
+						<li><b>text-decoration-color</b></li>
+						<li><b>text-decoration-style</b></li>
+						<li><b>text-decoration-thickness</b></li>
+						<li><b>text-decoration</b></li>
+						<li><b>text-transform</b></li>
+						</ul>
+                </div>
+
+				<br><hr><br>
+				
+				<div>
+					<h2>Decoration Line & Decoration Style</h2><br>
+					<p>The text-decoration-line property is used to add a decoration line to text.</p>
+					<br>
+					<p>The text-decoration-color property is used to set the color of the decoration line.</p>
+					<br>
+					<h4>Overline</h4>
+					<br>
+					<p class="dec-ol">Intelligence is the ability to adapt to change.</p>
+					<br>
+					<h4>Underline</h4>
+					<br>
+					<p class="dec-ul">Intelligence is the ability to adapt to change.</p>
+					<br>
+					<h4>Line-Through</h4>
+					<br>
+					<p class="dec-lt">Intelligence is the ability to adapt to change.</p>
+					<br>
+					<h4>Overline & Underline</h4>
+					<br>
+					<p class="dec-ou">Intelligence is the ability to adapt to change.</p>
+				</div>
+				
+				<br><hr><br>
+
+				<div>
+					<h2>Decoration Style & Decoration Thickness</h2><br>
+					<p>The text-decoration-style property is used to set the style of the decoration line.</p>
+					<br>
+					<p>The text-decoration-thickness property is used to set the thickness of the decoration line.</p>
+					
+					<br>
+					<h4>Solid</h4>
+					<br>
+					<p class="dec-solid">Just Do It.</p>
+					<br>
+					<h4>Double</h4>
+					<br>
+					<p class="dec-double">Just Do It.</p>
+					<br>
+					<h4>Dotted</h4>
+					<br>
+					<p class="dec-dotted">Just Do It.</p>
+					<br>
+					<h4>Dashed</h4>
+					<br>
+					<p class="dec-dashed">Just Do It.</p>
+					<br>
+					<h4>Wavy</h4>
+					<br>
+					<p class="dec-wavy">Just Do It.</p>
+					<br>
+				</div>
+				
+				<br><hr><br>
+
+				<div>
+					<h2>Text Transformation</h2><br>
+					<p>The text-transform property is used to specify uppercase and lowercase letters in a text.</p>
+					
+					<br>
+					<h4>Uppercase</h4>
+					<br>
+					<p class="tran-up">Intelligence is the ability to adapt to change.</p>
+					<br>
+					<h4>Lowercase</h4>
+					<br>
+					<p class="tran-low">Intelligence is the ability to adapt to change.</p>
+					<br>
+					<h4>Capitalize</h4>
+					<br>
+					<p class="tran-cap">Intelligence is the ability to adapt to change.</p>
+					<br>
+				</div>
+				
+				<br><hr><br>
+
+				<div>
+					<h1>Text Spacing & Text Shadow</h1>
+							<ul>
+							<li><b>text-indent</b></li>
+							<li><b>letter-spacing</b></li>
+							<li><b>line-height</b></li>
+							<li><b>word-spacing</b></li>
+							<li><b>white-space</b></li>
+							<li><b>text-shadow</b></li>
+							</ul>
+					</div>
+
+					<br><hr><br>
+
+					<div>
+						<h2>Text Spacing</h2>
+						<br>
+						<p>The text-indent property is used to specify the indentation of the first line of a text.</p><br>
+						<p>The letter-spacing property is used to specify the space between the characters in a text.</p><br>
+						<p>The line-height property is used to specify the space between lines.</p><br>
+						<p>The word-spacing property is used to specify the space between the words in a text.</p><br>
+						<p>The white-space property specifies how white-space inside an element is handled.</p><br>
+						<p>The text-shadow property adds shadow to text.</p>
+						<br>
+						<h4>Text Indent, Letter Spacing, Line Height & Word Spacing</h4>
+						<br>
+						<p class="text-space">Mahendra Singh Dhoni is an Indian former international cricketer who was captain of the Indian national cricket team in limited-overs formats from 2007 to 2017 and in Test cricket from 2008 to 2014. He led India to three ICC trophies, the most for any Indian captain.</p>
+						<br>
+					</div>
+					<br>
+					<h4>White Space</h4>
+					<div class="scroll" style="height:100px;width:100%;overflow: scroll;">
+						<br>
+						<p class="text-wspace">Mahendra Singh Dhoni is an Indian former international cricketer who was captain of the Indian national cricket team in limited-overs formats from 2007 to 2017 and in Test cricket from 2008 to 2014. He led India to three ICC trophies, the most for any Indian captain.</p>
+					</div>
+
+					<br><hr><br>
+
+					<div>
+						<h2>Text Shadow</h2>
+						<br>
+						<p>The text-shadow property adds shadow to text.</p><br>
+						<p class="add-shadow">ARYA KARTHI</p>
+					</div>
+
+
+
+
+
+    </section>
+</body>
+</html>
