@@ -1,14 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+@font-face {
+	font-family: myCaveat;
+	src: url(../font/Caveat-Medium.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: 'Poppins', sans-serif;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
 }
+
+
 .main-sec{
     height: 100%;
     width: 80%;
@@ -19,7 +29,7 @@ h1{
 	color: purple;
 	text-align: center;
 }
-b,h2,h4{
+b,h2,h3,h4{
     color: crimson;
 }
 ul{
@@ -206,3 +216,51 @@ p.text-wspace{
 	background-color:hsla(12, 88%, 49%, 0.1);
 }
 
+.sono-font{
+	font-family: 'Sono', sans-serif;
+	font-size: 20px;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: bold;
+}
+
+.caveat-font{
+	font:  italic normal 500 24px/30px  'myCaveat', cursive;
+}
+
+
+.cm{
+	font-size: 1cm;
+}
+.mm{
+	font-size: 8mm;
+}
+.in{
+	font-size: 0.5in;
+}
+.pt{
+	font-size: 20pt;
+}
+.px{
+	font-size: 20px;
+}
+
+.r-units{
+	font-size: 20px;
+}
+
+.em{
+	font-size: 1.2em;
+}
+.rem{
+	font-size: 1.25rem;
+}
+.per{
+	font-size: 110%;
+}
+.vw{
+	font-size: 2vw;
+}
+.vh{
+	font-size: 5vh;
+}
