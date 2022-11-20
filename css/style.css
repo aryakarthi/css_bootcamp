@@ -264,3 +264,102 @@ p.text-wspace{
 .vh{
 	font-size: 5vh;
 }
+
+
+.borders-div p{
+	padding: 10px;
+}
+
+.dotted{
+	border-style: dotted;
+}
+.dashed{
+	border-style: dashed;
+}
+.solid{
+	border-style: solid;
+}
+.double{
+	border-style: double;
+}
+.groove{
+	border-style: groove;
+}
+.ridge{
+	border-style: ridge;
+}
+.inset{
+	border-style: inset;
+}
+.outset{
+	border-style: outset;
+}
+.none{
+	border-style: none;
+}
+.hidden{
+	border-style: hidden;
+}
+.multi-border{
+	border-style: ridge dotted double dashed ;
+}
+
+.border-wc p{
+	padding: 10px;
+}
+
+.para-wc{
+	border-style: groove dashed;
+	border-width: 10px;
+	border-color: rebeccapurple;
+}
+
+.para-bor-short{
+	border: 5px dotted rebeccapurple;
+}
+
+.para-bor-rad{
+	border: 3px solid rebeccapurple;
+	border-radius: 10px;
+}
+
+.css-links{
+	padding: 5px 50px;
+}
+
+.a-top:link {
+	color: blue;
+}
+.a-top:visited {
+	color: green;
+}
+.a-top:hover {
+	color: hotpink;
+}
+.a-top:active {
+	color: red;
+}
+
+
+.link-to-html{
+	/* background-color: rebeccapurple; */
+	color: white;
+	padding: 5px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+.link-to-html:link {
+	background-color: rebeccapurple;
+}
+.link-to-html:visited {
+	background-color: red;
+}
+.link-to-html:hover {
+	background-color: crimson;
+}
+.link-to-html:active {
+	background-color: green;
+}
