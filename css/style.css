@@ -363,3 +363,53 @@ p.text-wspace{
 .link-to-html:active {
 	background-color: green;
 }
+
+ul.ul-square {
+  list-style-type: circle;
+	margin-left: 100px;
+}
+
+ul.ul-circle {
+  list-style-type: square;
+	margin-left: 100px;
+}
+
+ul.ul-img {
+  list-style-image: url("../img/png-pin.png");
+	margin-left: 100px;
+}
+
+ol.ol-up-rom {
+  list-style-type: upper-roman;
+	margin-left: 100px;
+}
+
+ol.ol-low-alp {
+  list-style-type: lower-alpha;
+	margin-left: 100px;
+}
+
+.table-companies{
+	border-collapse: collapse;
+  width: 80%;
+}
+
+.table-companies td, .table-companies th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table-companies th {
+  padding: 10px 0;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.table-companies tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+.table-companies tr:hover{
+	background-color: #ddd;
+}
